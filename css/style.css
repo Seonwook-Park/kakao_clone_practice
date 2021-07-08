@@ -41,8 +41,7 @@ body{
 	padding: 15px 0px;
 	font-size: 18px;
 	margin-bottom: 25px;
-	border-bottom: 1px solid rgba(0,0,0,0.2);
-	transition: border-color 0.2s ease-in-out;
+	
 	
 
 }
@@ -54,9 +53,25 @@ body{
 	margin-bottom: 25px;
 }
 
-#login-form input[type="submit"]{
-	border: none;
+#login-form input:not([type="submit"]){	/* not(condition): 해당 condition 이 아닐 때 효과 적용 */
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	transition: border-color 0.2s ease-in-out;
 }
+
+#login-form input[type="submit"]{
+	background-color: var(--yellow);
+	cursor: pointer;
+	padding: 15px 0px;
+	border-radius: 5px;
+
+}
+#login-form button[type="submit"]{
+	background-color: var(--yellow);
+	cursor: pointer;
+	padding: 15px 0px;
+	border-radius: 5px;
+}
+
 #login-form input::placeholder{
 	color: rgba(0,0,0,0.4)
 
@@ -65,4 +80,11 @@ body{
 
 #login-form input:focus{
 	border-color:var(--yellow);
+}
+
+#login-form a{
+	text-align: center;
+	text-decoration: none;
+	color: inherit; /* default: black */
+	font-size: 14px;
 }

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 @import "reset.css";
 @import "status-bar.css";
+@import "variable.css";
 
 body{
 	font-family: 'Arimo', sans-serif;
@@ -35,28 +36,33 @@ body{
 
 }
 
-.login-form__input{
-	border:0px solid black;
-	border-bottom: 0.1px solid rgba(0,0,0,0.5);
-	height: 40px;
-	font-size:15px;
-	margin-bottom: 10px;
+#login-form input{
+	border: none;
+	padding: 15px 0px;
+	font-size: 18px;
+	margin-bottom: 25px;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	transition: border-color 0.2s ease-in-out;
+	
 
 }
 
-.login-form__btn{
-	margin-top: 10px;
-	border: 0px solid black;
-	background-color: rgba(0,0,0,0.05);
-	
-	height:40px;
-	border-radius:5px;
-	color: black;
-	
+#login-form button{
+	border: none;
+	padding: 15px 0px;
+	font-size: 18px;
+	margin-bottom: 25px;
 }
 
-a{
-	text-decoration: none;
-	color:black; 
-	
+#login-form input[type="submit"]{
+	border: none;
+}
+#login-form input::placeholder{
+	color: rgba(0,0,0,0.4)
+
+}
+
+
+#login-form input:focus{
+	border-color:var(--yellow);
 }

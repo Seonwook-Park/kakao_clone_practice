@@ -1,0 +1,41 @@
+
+
+nav{
+	background-color: #F9F9FA;
+	padding: 20px 50px;
+	border-top: 0.5px solid rgba(0,0,0,0.2);
+	width: 100%;
+	box-sizing: border-box;
+	position: fixed;
+	bottom: 0;
+}
+
+.nav__list{
+	display:flex;
+	justify-content: space-between;
+	
+}
+
+.nav__link{
+	position: relative;
+}
+.nav__notification{
+	
+	width: 22px;
+	height: 22px;
+	background-color: #FF6229;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: 300;
+	position: absolute;
+	left: 21px;
+ 	bottom: 16px;
+
+
+}
+.nav__link{
+	color: #2F363E;
+}

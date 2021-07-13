@@ -21,15 +21,7 @@ nav{
 }
 .nav__notification{
 	
-	width: 22px;
-	height: 22px;
-	background-color: #FF6229;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: white;
-	font-weight: 300;
+	
 	position: absolute;
 	left: 21px;
  	bottom: 16px;

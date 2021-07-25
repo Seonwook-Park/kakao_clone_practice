@@ -3,7 +3,7 @@
 	display: block;
 	background-color: #fafafa;
 	padding: 15px;
-	margin-bottom: -10px;
+	margin-top: -15px;
 }
 
 #friends-display-link i{
@@ -15,3 +15,29 @@
 .friends-screen{
 	padding: 0px var(--horizontal-space);
 }
+
+
+.friends-screen__channel-header{
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 0px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+
+.user-component__column:last-child{
+	color: rgba(0, 0, 0,0.4);
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+
+}
+
+
+.user-component__time{
+	margin-bottom: 10px;
+	display: block;
+	
+}
+
+

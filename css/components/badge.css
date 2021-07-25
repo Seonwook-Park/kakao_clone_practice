@@ -9,3 +9,17 @@
 	color: white;
 	font-weight: 300;
 }
+
+.alarm{
+	background-color: #FF6229;
+	border-radius: 50%;
+	width: 5px;
+	height:5px;
+	position: absolute;
+	top: -3px;
+	right: -3px;
+}
+
+#setting-icon{
+	position: relative;
+}

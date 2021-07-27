@@ -24,4 +24,13 @@
 	font-weight: 600;
 }
 
+.more-suggestions .icon-row__icon img{
+	width: 40px;
+	height: 40px;
+}
+
+.more-suggestions .icon-row__icon span{
+	font-size: 15px;
+}
+
 
